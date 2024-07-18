@@ -14,6 +14,13 @@ export default {
     </>
   ),
 
+  feedback:{
+    content: "Questions? Visit our forum",
+    useLink: ()=>"https://forum.ethora.com/"
+  },
+  editLink:{
+    component: null
+  },
   footer: {
     text: (
       <span>
