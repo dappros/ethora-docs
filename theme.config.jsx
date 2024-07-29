@@ -3,7 +3,9 @@ export default {
   project: {
     link: 'https://github.com/dappros/ethora'
   },
+
   logo: <img src="https://www.ethora.com/images/ethora-logo-new.png" alt="Ethora Logo" width="130px" />,
+
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -31,13 +33,32 @@ export default {
     }
   },
 
+  banner: {
+    key: 'mvp-contact',
+    text: (
+      <a href="https://www.ethora.com/#contact" target="_blank">
+        Would you like to get your MVP delivered within 2 weeks? Contact us 📩
+      </a>
+    )
+  },
+
   feedback:{
     content: "Questions? Visit our forum",
     useLink: ()=>"https://forum.ethora.com/"
   },
+
   editLink:{
     component: null
   },
+  
+  chat: {
+    link: 'https://discord.gg/6UcTnDmW3B'
+  },
+
+  sidebar: {
+    toggleButton: true
+  },
+
   footer: {
     text: (
       <span>
@@ -50,4 +71,3 @@ export default {
     )
   }
 };
-
