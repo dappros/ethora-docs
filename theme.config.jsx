@@ -1,10 +1,17 @@
+import { Link } from "nextra-theme-docs";
+
 export default {
   docsRepositoryBase: 'https://github.com/dappros/ethora-docs',
   project: {
     link: 'https://github.com/dappros/ethora'
   },
 
-  logo: <img src="https://www.ethora.com/images/ethora-logo-new.png" alt="Ethora Logo" width="130px" />,
+  logo: (
+    <>
+    <img src="https://www.ethora.com/images/ethora-logo-new.png" alt="Ethora Logo" width="130px" />
+    </>
+  ),
+  logoLink: "https://ethora.com",
 
   head: (
     <>
