@@ -31,6 +31,18 @@ export default {
       <meta property="twitter:title" content="Ethora Documentation" />
       <meta property="twitter:description" content="Ethora is low-code and highly customisable which means you can launch your own branded app into appstore in no time. Follow the documentation for more insights." />
       <meta property="twitter:image" content="/og-ethora.png" />
+      {/* Google Analytics */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-9JG0SFFM5L"></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9JG0SFFM5L');
+          `,
+        }}
+      />
     </>
   ),
 
